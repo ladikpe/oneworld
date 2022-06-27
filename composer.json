@@ -1,5 +1,5 @@
 {
     "require": {
-        "oneworld/index.php": "2.0.*"
+        "oneworld/oneworld": "2.0.*"
     }
 }
