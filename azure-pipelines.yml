@@ -23,4 +23,10 @@ steps:
   displayName: 'Use PHP version $(phpVersion)'
 
 - script: composer install --no-interaction --prefer-dist
+         php artisan clear-compiled
+         sudo composer dumpautoload
+         composer update
+       
+         sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+        
   displayName: 'composer install'
