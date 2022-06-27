@@ -1,3 +1,5 @@
-php artisan clear-compiled
-composer dumpautoload
-composer update
+{
+    "require": {
+        "monolog/monolog": "2.0.*"
+    }
+}
